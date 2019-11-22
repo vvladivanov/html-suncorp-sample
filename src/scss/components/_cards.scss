@@ -1,0 +1,21 @@
+.card-campus {
+  border-top: 5px solid $warning;
+  padding-top: 40px;
+  padding-bottom: 44px;
+  text-align: center;
+  margin-bottom: 11px;
+  img {
+    width: 227px;
+    height: auto;
+  }
+}
+
+.card-service {
+  padding: 40px;
+  img {
+    margin-bottom: 26px;
+    width: 105px;
+    height: auto;
+  }
+  margin-bottom: 40px;
+}

@@ -1,0 +1,23 @@
+.video {
+  background-position: center;
+  background-size: cover;
+  height: 425px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  @include media-breakpoint-down('sm') {
+    height: 325px;
+  }
+  .play-button {
+    img {
+      width: 131px;
+      height: auto;
+      @include media-breakpoint-down('sm') {
+        width: 100px;
+      }
+    }
+  }
+}

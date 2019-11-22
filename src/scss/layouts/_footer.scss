@@ -1,0 +1,12 @@
+.site-footer {
+  padding: 23px 0;
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include media-breakpoint-down('xs') {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+    }
+  }
+}
